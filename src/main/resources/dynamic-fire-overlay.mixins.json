@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "io.github.andyrusso.dynamicfireoverlay.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "MixinInGameOverlayRenderer"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

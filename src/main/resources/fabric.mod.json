@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "dynamic-fire-overlay",
+	"version": "${version}",
+	"name": "Dynamic Fire Overlay",
+	"description": "Hides the fire overlay if you have the fire resistance effect.",
+	"authors": [
+		"Andy Russo"
+	],
+	"license": "MIT",
+	"icon": "assets/dynamic-fire-overlay/icon.png",
+	"environment": "client",
+	"mixins": [
+		"dynamic-fire-overlay.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "~0.14",
+		"minecraft": ">=1.19",
+		"java": ">=17"
+	}
+}
